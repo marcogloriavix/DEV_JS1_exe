@@ -1,18 +1,18 @@
-let elementoJavaScript=document.createElement("li");
-elementoJavaScript.innerText="JavaScript"
-elementoJavaScript.id="ling-js"
+//let elementoJavaScript=document.createElement("li");
+//elementoJavaScript.innerText="JavaScript"
+//elementoJavaScript.id="ling-js"
 
-let listaLinguagens=document.querySelector(".lista-linguagens");
-listaLinguagens.appendChild(elementoJavaScript);
-console.log(elementoJavaScript);
+//let listaLinguagens=document.querySelector(".lista-linguagens");
+//listaLinguagens.appendChild(elementoJavaScript);
+//console.log(elementoJavaScript);
 
 
-const postagemJavaScript=document.createElement("div");
+const modelonovo=document.createElement("div");
 
-postagemJavaScript.innerHTML=
-`<h2 class=post-titulo>javaScript</h2>
-<p class="post-texto"> JavaScript é uma linguagem de programação></p>
+modelonovo.innerHTML=
+`<h2 class=post-titulo>NOVOS MODELOS</h2>
+<p class="post-texto"> NOVOS MODELOS À VENDA-CONFIRA</p>
 <image src="imagemCarro.jpg"></image>
 `
-const postagens=document.querySelector(".postagens");
-postagens.appendChild(postagemJavaScript);
+const modelosNovos=document.querySelector(".modelos");
+modelosNovos.appendChild(modelonovo);
